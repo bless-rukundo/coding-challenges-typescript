@@ -6,7 +6,6 @@ function positiveSum(arr:number[]):number {
       sum +=arr[i];
     }
   }
-  return sum;
   }
   return 0;
 }
