@@ -6,9 +6,11 @@
     }, {});
   
     for(let [key, value] of Object.entries(count)){
+      if(typeof(value) === 'number'){
       if(value %2 !==0){
-        return key;
+        return Number(key);
       }
+    }
     }  
     }
     return 0;
